@@ -6,7 +6,7 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 )
 
-const SecretKey = "k87qg9ZgjpHPpaA5gH7Upx"
+const SecretKey = "someverystronglongsecretkey"
 
 func CreateNewToken(userToken models.UserToken) (string, error) {
 	accessToken := jwt.NewWithClaims(jwt.SigningMethodHS256, userToken)
