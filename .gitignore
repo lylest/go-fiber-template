@@ -1,0 +1,53 @@
+# Compiled binary
+*.exe
+*.out
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.cover
+
+# Project-specific files/directories
+/bin/
+/pkg/
+
+/assets/files/
+
+# Dependency directories
+/Godeps/
+/vendor/
+/_vendor/
+
+# Test binary, built with `go test -c`
+
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+
+# Output of the `go tool trace`
+*.trace
+
+# Output of go tool pprof
+*.pprof
+
+# Compiled Go files
+*.a
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore Go binaries for Windows
+*.dll
+*.zip
+
+# Ignore VS Code specific files
+.vscode/
+
+# Ignore IntelliJ IDEA specific files
+.idea/
+
+
+# Ignore Vim swap files
+*.swp
+
+# Ignore binary artifacts for Go modules
+*.sum
+/go.sum
